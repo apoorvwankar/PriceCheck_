@@ -1,0 +1,18 @@
+{% extends 'base_layout.html' %} {% block content %}
+
+<head>
+  <meta charset="utf-8" />
+  <title>About</title>
+</head>
+<body style="background-color: #d0eaf2; color: #1f4070">
+  <pre><span class="about-content" style="font-size: 18px;">
+      PriceCheck is a website that uses webscraping code written in Python
+      to compare the prices of everyday use items. To use the webscraper 
+      the SuperUser creates the product and gives it and Category and Name. 
+      In this same section the URL for each supermarket is then entered and 
+      stored into the database. Once the load-prices.py file
+      is ran it will go through each URL in the database and scrape the prices
+      from each webpage. 
+    </span></pre>
+</body>
+{% endblock %}
